@@ -1,0 +1,41 @@
+/* now moved to external css for convenience, and also faster loading due to browser cache */
+      @font-face {
+        font-family: nisesegasonic; 
+        src: "assets/NiseSegaSonic.TTF";
+      } 
+
+      @font-face {
+        font-family: ITC EARAPES;
+        src: url("assets/ITCErasBold.woff");
+      }
+
+      body {
+        background-image: url("assets/gfzsky.png");
+      }
+    
+      h1 {
+        font-family: nisesegasonic;
+      } 
+      h2 {
+        font-family: ITC EARAPES;
+      }
+    
+        .divisionsidebar {
+          text-align: left; 
+          position: absolute;
+          font-family: Trebuchet MS; 
+          color: white; 
+          top: 20;
+          left: 0;
+      }
+        .container {
+          display: flex;
+          align-items: flex-start;
+        } 
+        .ytembed { 
+          flex: 1;
+        } 
+        a {
+            color: black;
+          }
+      
