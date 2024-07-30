@@ -38,4 +38,14 @@
         a {
             color: black;
           }
-      
+        .randombutton { 
+          background-color: #696969;
+          text-align: center; 
+          font-family: ITC EARAPES; 
+          display: inline-block; 
+        }  
+        .dropdown {
+          position: relative;
+          display: inline-block;
+        } 
+        
