@@ -1,7 +1,7 @@
 /* now moved to external css for convenience, and also faster loading due to browser cache */
       @font-face {
         font-family: nisesegasonic; 
-        src: "assets/NiseSegaSonic.TTF";
+        src: url("assets/NiseSegaSonic.TTF");
       } 
 
       @font-face {
